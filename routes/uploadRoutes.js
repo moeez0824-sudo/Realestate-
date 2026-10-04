@@ -38,7 +38,7 @@ const upload = multer({
 });
 
 router.post("/", protect, upload.array("image", 10), (req, res) => {
-  var images = req.files.map((file) => file.path);
+  var images = req.files ? req.files.map((file) => "/" + file.path.replace(/\\/g, "/")) : [];
   res.send(images);
 });
 

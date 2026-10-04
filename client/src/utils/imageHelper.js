@@ -51,9 +51,22 @@ export const propertyImages = {
 
 export const fallbackPropertyImage = PakHouse1;
 
+export const resolveImageUrl = (src) => {
+  if (!src) return fallbackPropertyImage;
+  if (typeof src === "string" && src.startsWith("/uploads/") && process.env.PUBLIC_URL) {
+    return `${process.env.PUBLIC_URL}${src}`;
+  }
+  return src;
+};
+
 export const handleImageError = (e, customFallback = fallbackPropertyImage) => {
   if (e && e.target) {
     e.target.onerror = null; // Prevent infinite loop
-    e.target.src = customFallback;
+    let src = customFallback;
+    if (typeof src === "string" && src.startsWith("/uploads/") && process.env.PUBLIC_URL) {
+      src = `${process.env.PUBLIC_URL}${src}`;
+    }
+    e.target.src = src || fallbackPropertyImage;
   }
 };
+

@@ -49,6 +49,7 @@ const homeSchema = mongoose.Schema(
   },
   {
     timestamps: true,
+    strict: false,
   }
 );
 
