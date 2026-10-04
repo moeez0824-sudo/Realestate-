@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Realestate/static/css/main.2e662a65.css",
-    "main.js": "/Realestate/static/js/main.e180d7ab.js",
-    "static/media/pak_flat_1.jpg": "/Realestate/static/media/pak_flat_1.a4a6ed1ba0add410deb1.jpg",
-    "static/media/pak_house_4.jpg": "/Realestate/static/media/pak_house_4.54967ce14f4336c4233a.jpg",
-    "static/media/pak_commercial_1.jpg": "/Realestate/static/media/pak_commercial_1.d42e765218f6dff5cd51.jpg",
-    "static/media/pak_flat_2.jpg": "/Realestate/static/media/pak_flat_2.dbba128c934de0c8bb15.jpg",
-    "static/media/pak_house_1.jpg": "/Realestate/static/media/pak_house_1.694254e34a212a9bad60.jpg",
-    "static/media/pak_house_2.jpg": "/Realestate/static/media/pak_house_2.e903370af189b96393ef.jpg",
-    "static/media/pak_house_3.jpg": "/Realestate/static/media/pak_house_3.4dc3f699bcef23fb312f.jpg",
-    "static/media/pak_plot_1.jpg": "/Realestate/static/media/pak_plot_1.37e84310e1d0785b9a1c.jpg",
-    "index.html": "/Realestate/index.html",
-    "main.2e662a65.css.map": "/Realestate/static/css/main.2e662a65.css.map",
-    "main.e180d7ab.js.map": "/Realestate/static/js/main.e180d7ab.js.map"
+    "main.css": "/Realestate-/static/css/main.2e662a65.css",
+    "main.js": "/Realestate-/static/js/main.14ec1492.js",
+    "static/media/pak_flat_1.jpg": "/Realestate-/static/media/pak_flat_1.a4a6ed1ba0add410deb1.jpg",
+    "static/media/pak_house_4.jpg": "/Realestate-/static/media/pak_house_4.54967ce14f4336c4233a.jpg",
+    "static/media/pak_commercial_1.jpg": "/Realestate-/static/media/pak_commercial_1.d42e765218f6dff5cd51.jpg",
+    "static/media/pak_flat_2.jpg": "/Realestate-/static/media/pak_flat_2.dbba128c934de0c8bb15.jpg",
+    "static/media/pak_house_1.jpg": "/Realestate-/static/media/pak_house_1.694254e34a212a9bad60.jpg",
+    "static/media/pak_house_2.jpg": "/Realestate-/static/media/pak_house_2.e903370af189b96393ef.jpg",
+    "static/media/pak_house_3.jpg": "/Realestate-/static/media/pak_house_3.4dc3f699bcef23fb312f.jpg",
+    "static/media/pak_plot_1.jpg": "/Realestate-/static/media/pak_plot_1.37e84310e1d0785b9a1c.jpg",
+    "index.html": "/Realestate-/index.html",
+    "main.2e662a65.css.map": "/Realestate-/static/css/main.2e662a65.css.map",
+    "main.14ec1492.js.map": "/Realestate-/static/js/main.14ec1492.js.map"
   },
   "entrypoints": [
     "static/css/main.2e662a65.css",
-    "static/js/main.e180d7ab.js"
+    "static/js/main.14ec1492.js"
   ]
 }
